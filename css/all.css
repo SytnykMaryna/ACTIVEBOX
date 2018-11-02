@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background-color: #31344e;
+}
+header .header-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+}
+header .header-flex h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 250px;
+          flex: 1 1 250px;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: auto;
+}
+header .header-flex h1 span {
+  color: #66697e;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header .header-flex nav {
+  -webkit-box-flex: 4;
+      -ms-flex: 4 1 250px;
+          flex: 4 1 250px;
+}
+header .header-flex nav ul {
+  display: block;
+}
+header .header-flex nav ul li {
+  display: inline-block;
+}
+header .header-flex nav ul li a {
+  line-height: 90px;
+  height: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 20px;
+}
+header img {
+  display: block;
+  width: 980px;
+  height: 3px;
+  margin: 0 auto;
+}
+
+.baner {
+  background-color: #31344e;
+  text-align: center;
+}
+.baner h1 {
+  font-size: 3.5rem;
+  font-family: 'Open Sans';
+  padding: 150px 157px 40px;
+  color: #fff;
+  line-height: 4rem;
+}
+.baner p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Raleway";
+  padding: 0 100px;
+  line-height: 1.7rem;
+}
+.baner button {
+  width: 201px;
+  height: 47px;
+  background-color: #e84545;
+  border: none;
+  margin: 58px 0 152px;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.about_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about_us div {
+  text-align: center;
+  margin: 50px 10px;
+  max-width: 300px;
+  max-height: 351px;
+}
+.about_us div img {
+  padding-bottom: 30px;
+}
+.about_us div h2 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-family: "Raleway";
+}
+.about_us div p {
+  text-align: left;
+  font-family: "Raleway";
+  font-size: 1rem;
+}
+
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.work img {
+  max-width: 358px;
+  max-height: 351px;
+  border: 1px solid white;
+}
+
+footer {
+  background-color: #3a3e64;
+}
+footer .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .footer-top article {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  text-align: center;
+  font-family: "Raleway";
+}
+footer .footer-top article h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 76px 0 32px;
+}
+footer .footer-top article p {
+  color: #adaebb;
+  margin-bottom: 112px;
+  line-height: 1.5rem;
+}
+footer .footer-top article img {
+  margin: 0 10px 0;
+  border: 2px solid white;
+}
+
+footer .footer-top article img[alt="facebook"] {
+ padding: 15.5px 21px;
+}
+
+footer .footer-top article img[alt="twitter"]{
+ padding: 18px 17px;
+}
+
+footer .footer-top article img[alt="linkedin"]{
+ padding: 17px;
+}
+
+
+footer .footer-bottom {
+  background-color: #313454;
+  text-align: center;
+  font-family: "Raleway";
+  padding: 25px 0 30px;
+}
+footer .footer-bottom p {
+  color: #adaebb;
+  line-height: 1.5rem;
+}
